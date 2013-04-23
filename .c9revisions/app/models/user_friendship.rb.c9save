@@ -1,0 +1,12 @@
+{"ts":1366681462774,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class UserFriendship < ActiveRecord::Base\n  # attr_accessible :title, :body\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":80}]],"length":80}
+{"contributors":[],"silentsave":false,"ts":1366681477687,"patch":[[{"diffs":[[0,"e\n  "],[-1,"# attr_accessible :title, :body"],[1,"belongs_to :user"],[0,"\nend"]],"start1":40,"start2":40,"length1":39,"length2":24}]],"length":65,"saved":false}
+{"ts":1366681527492,"patch":[[{"diffs":[[0,"o :user\n"],[1,"  belongs_to :friend\n"],[0,"end\n"]],"start1":53,"start2":53,"length1":12,"length2":33}]],"length":86,"saved":false}
+{"ts":1366681807025,"patch":[[{"diffs":[[0,":friend\n"],[1,"  \n  attr_accessible :user, :friend\n"],[0,"end\n"]],"start1":74,"start2":74,"length1":12,"length2":48}]],"length":122,"saved":false}
+{"ts":1366681875484,"patch":[[{"diffs":[[0," :friend"],[1,", class_name: 'User', foreign_key: 'friend_id"],[0,"\n  \n  at"]],"start1":73,"start2":73,"length1":16,"length2":61}]],"length":167,"saved":false}
+{"ts":1366681876237,"patch":[[{"diffs":[[0,"riend_id"],[1,"'"],[0,"\n  \n  at"]],"start1":118,"start2":118,"length1":16,"length2":17}]],"length":168,"saved":false}
+{"ts":1366682239165,"patch":[[{"diffs":[[0,"ase\n"],[-1,"  belongs_to :user\n  belongs_to :friend, class_name: 'User', foreign_key: 'friend_id'\n  \n  attr_accessible :user, :friend\n"],[0,"end\n"]],"start1":38,"start2":38,"length1":130,"length2":8}]],"length":46,"saved":false}
+{"ts":1366683236274,"patch":[[{"diffs":[[0,"d::Base\n"],[1,"    belongs_to :user\n"],[0,"end\n"]],"start1":34,"start2":34,"length1":12,"length2":33}]],"length":67,"saved":false}
+{"ts":1366683292008,"patch":[[{"diffs":[[0,"o :user\n"],[1,"    belongs_to :friend\n"],[0,"end\n"]],"start1":55,"start2":55,"length1":12,"length2":35}]],"length":90,"saved":false}
+{"ts":1366683551546,"patch":[[{"diffs":[[0," :friend"],[1,"\n\n    attr_accessible :user, :friend"],[0,"\nend\n"]],"start1":77,"start2":77,"length1":13,"length2":49}]],"length":126,"saved":false}
+{"ts":1366683793963,"patch":[[{"diffs":[[0," :friend"],[1,", class_name: 'User', foreign_key: 'friend_id"],[0,"\n\n    at"]],"start1":77,"start2":77,"length1":16,"length2":61}]],"length":171,"saved":false}
+{"ts":1366683910291,"patch":[[{"diffs":[[0,"riend_id"],[1,"'"],[0,"\n\n    at"]],"start1":122,"start2":122,"length1":16,"length2":17}]],"length":172,"saved":false}

@@ -1,0 +1,4 @@
+{"ts":1366680947099,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class CreateUserFriendships < ActiveRecord::Migration\n  def change\n    create_table :user_friendships do |t|\n\n      t.timestamps\n    end\n  end\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":147}]],"length":147}
+{"contributors":[],"silentsave":false,"ts":1366680975027,"patch":[[{"diffs":[[0," do |t|\n"],[-1,"\n"],[1,"        t.integer :user_id\n        t.integer :friend_id\n  "],[0,"      t."]],"start1":101,"start2":101,"length1":17,"length2":74}]],"length":204,"saved":false}
+{"ts":1366681029305,"patch":[[{"diffs":[[0,"    end\n"],[1,"    \n    add_index :user_friendships, [:user_id, friend_id]\n"],[0,"  end\nen"]],"start1":186,"start2":186,"length1":16,"length2":76}]],"length":264,"saved":false}
+{"ts":1366681042154,"patch":[[{"diffs":[[0,"ser_id, "],[1,":"],[0,"friend_i"]],"start1":235,"start2":235,"length1":16,"length2":17}]],"length":265,"saved":false}
