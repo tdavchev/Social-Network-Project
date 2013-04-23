@@ -36,6 +36,7 @@ class StatusesControllerTest < ActionController::TestCase
       post :create, status: { content: @status.content }
     end
 
+    assert_equal users(:jason), assigns(:status).user
     assert_redirected_to status_path(assigns(:status))
   end
 
@@ -63,6 +64,12 @@ class StatusesControllerTest < ActionController::TestCase
   end
 
   test "should update status when logged in" do
+    sign_in users(:jason)
+    put :update, id: @status, status: { content: @status.content }
+    assert_redirected_to status_path(assigns(:status))
+  end
+  
+  test "should not update status when nothing changes" do
     sign_in users(:jason)
     put :update, id: @status, status: { content: @status.content }
     assert_redirected_to status_path(assigns(:status))
