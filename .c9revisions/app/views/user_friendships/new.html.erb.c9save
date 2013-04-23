@@ -10,3 +10,6 @@
 {"ts":1366692351103,"patch":[[{"diffs":[[0,"iend_id,"],[1," value:"],[0," @friend"]],"start1":258,"start2":258,"length1":16,"length2":23}]],"length":469,"saved":false}
 {"ts":1366692452452,"patch":[[{"diffs":[[0,"_name %>"],[-1," "],[0,"?</p>\n\n "]],"start1":101,"start2":101,"length1":17,"length2":16}]],"length":468,"saved":false}
 {"ts":1366692538942,"patch":[[{"diffs":[[0,"h1>\n\n<p>"],[-1," "],[0,"Do you r"]],"start1":47,"start2":47,"length1":17,"length2":16}]],"length":467,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366733357796,"patch":[[{"diffs":[[0," @friend"],[-1,".full_name"],[0," %>?</p>"]],"start1":87,"start2":87,"length1":26,"length2":16}]],"length":457,"saved":false}
+{"ts":1366733417615,"patch":[[{"diffs":[[0,"h1>\n\n<p>"],[1,"/"],[0,"Do you r"]],"start1":47,"start2":47,"length1":16,"length2":17},{"diffs":[[0,"iend %>?"],[1,"/"],[0,"</p>\n\n  "]],"start1":92,"start2":92,"length1":16,"length2":17}]],"length":459,"saved":false}
+{"ts":1366733593768,"patch":[[{"diffs":[[0,"h1>\n\n<p>"],[-1,"/"],[0,"Do you r"]],"start1":47,"start2":47,"length1":17,"length2":16},{"diffs":[[0,"iend"],[1,".full_name"],[0," %>?"],[-1,"/"],[0,"</p>"]],"start1":91,"start2":91,"length1":13,"length2":22}]],"length":467,"saved":false}

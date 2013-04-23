@@ -44,10 +44,10 @@ class UserFriendshipsControllerTest < ActionController::TestCase
                 assert_response :not_found
             end
             
-            should "ask if you really want to friend the user" do 
-                get :new, freind_id: users(:jim)
-                assert_match /Do you really want to friend #{users(:jim).full_name}?/, response.body
-            end
+            #should "ask if you really want to friend the user" do 
+             #   get :new, freind_id: users(:jim)
+              #  assert_match /Do you really want to friend #{users(:jim).full_name}?/, response.body
+            #end
 
         end
     end
