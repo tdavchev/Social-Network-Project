@@ -1,0 +1,12 @@
+{"ts":1366688117945,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1366688134826,"patch":[[{"diffs":[[1,"<h1><%= @friend.full_name %></h1>"]],"start1":0,"start2":0,"length1":0,"length2":33}]],"length":33,"saved":false}
+{"ts":1366688428036,"patch":[[{"diffs":[[1,"<% if @friend %>\n"],[0,"<h1><%= "]],"start1":0,"start2":0,"length1":8,"length2":25},{"diffs":[[0," %></h1>"],[1,"\n<% end %>"]],"start1":42,"start2":42,"length1":8,"length2":18}]],"length":60,"saved":false}
+{"ts":1366691579731,"patch":[[{"diffs":[[0,"%></h1>\n"],[1,"<p> Do you really want to friend <%= @friend.full_name %> ?</p>\n"],[0,"<% end %"]],"start1":43,"start2":43,"length1":16,"length2":80}]],"length":124,"saved":false}
+{"ts":1366691756795,"patch":[[{"diffs":[[0,"%> ?</p>"],[1,"\n\n    <%= form for @user_friendship, method: :post do |form| %>\n        <div class = \"form form-actions\">\n            <%= submit_tag \"Yes, Add Friend\", class: 'btn btn-primary' %>\n            <%= link_to \"Cancel\", profile_path(@friend), class: 'btn' %>\n        </div>\n    <% end%>"],[0,"\n<% end "]],"start1":106,"start2":106,"length1":16,"length2":296}]],"length":404,"saved":false}
+{"ts":1366691807190,"patch":[[{"diffs":[[0,"tions\">\n"],[1,"            <%= form.hidden_field :friend_id, @friend.id %>\n"],[0,"        "]],"start1":212,"start2":212,"length1":16,"length2":76}]],"length":464,"saved":false}
+{"ts":1366691882214,"patch":[[{"diffs":[[0,"iend"],[-1,".id"],[0," %>\n"]],"start1":269,"start2":269,"length1":11,"length2":8}]],"length":461,"saved":false}
+{"ts":1366691920699,"patch":[[{"diffs":[[0,"%></h1>\n"],[1,"\n"],[0,"<p> Do y"]],"start1":43,"start2":43,"length1":16,"length2":17}]],"length":462,"saved":false}
+{"ts":1366692066076,"patch":[[{"diffs":[[0,"<%= form"],[-1," "],[1,"_"],[0,"for @use"]],"start1":121,"start2":121,"length1":17,"length2":17}]],"length":462,"saved":false}
+{"ts":1366692351103,"patch":[[{"diffs":[[0,"iend_id,"],[1," value:"],[0," @friend"]],"start1":258,"start2":258,"length1":16,"length2":23}]],"length":469,"saved":false}
+{"ts":1366692452452,"patch":[[{"diffs":[[0,"_name %>"],[-1," "],[0,"?</p>\n\n "]],"start1":101,"start2":101,"length1":17,"length2":16}]],"length":468,"saved":false}
+{"ts":1366692538942,"patch":[[{"diffs":[[0,"h1>\n\n<p>"],[-1," "],[0,"Do you r"]],"start1":47,"start2":47,"length1":17,"length2":16}]],"length":467,"saved":false}

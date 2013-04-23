@@ -48,9 +48,10 @@ class UserTest < ActiveSupport::TestCase
     assert user.valid?
   end
   
-  test "no error is raised when tryign to access a friend list" do
-    assert_nothing_raised do
-        users(:jason).friends
+  test "no error is raised when trying to access a friend list" do
+        assert_nothing_raised do
+            users(:jason).friends
+        end
     end
     
     test "that creating friendships on a user works" do 
@@ -58,6 +59,8 @@ class UserTest < ActiveSupport::TestCase
         users(:jason).friends.reload
         assert users(:jason).friends.include?(users(:mike))
     end
-  end
-  
+    
+    test "that calling to_param on a user returns the proifle_name" do
+        assert_equal "jasonseifer", users(:jason).to_param
+    end
 end
