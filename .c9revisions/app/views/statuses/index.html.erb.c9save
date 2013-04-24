@@ -4,3 +4,5 @@
 {"ts":1366692661374,"patch":[[{"diffs":[[0,"ile_"],[-1,"id"],[1,"name"],[0,") %>"]],"start1":326,"start2":326,"length1":10,"length2":12}]],"length":847,"saved":false}
 {"ts":1366692664225,"patch":[[{"diffs":[[0,"profile_"],[-1,"name"],[1,"i"],[0,") %>\n   "]],"start1":322,"start2":322,"length1":20,"length2":17}]],"length":844,"saved":false}
 {"ts":1366692666421,"patch":[[{"diffs":[[0,"user"],[-1,".profile_i"],[0,") %>"]],"start1":317,"start2":317,"length1":18,"length2":8}]],"length":834,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366758818357,"patch":[[{"diffs":[[0,"us.user."],[1,"profile_name."],[0,"gravatar"]],"start1":274,"start2":274,"length1":16,"length2":29}]],"length":847,"saved":false}
+{"ts":1366758827367,"patch":[[{"diffs":[[0,"ser."],[-1,"profile_name."],[0,"grav"]],"start1":278,"start2":278,"length1":21,"length2":8}]],"length":834,"saved":false}
