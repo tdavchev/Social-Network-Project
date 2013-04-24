@@ -15,3 +15,4 @@
 {"ts":1366733593768,"patch":[[{"diffs":[[0,"h1>\n\n<p>"],[-1,"/"],[0,"Do you r"]],"start1":47,"start2":47,"length1":17,"length2":16},{"diffs":[[0,"iend"],[1,".full_name"],[0," %>?"],[-1,"/"],[0,"</p>"]],"start1":91,"start2":91,"length1":13,"length2":22}]],"length":467,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1366759659395,"patch":[[{"diffs":[[0,"(@friend"],[1,".profile_name"],[0,"), class"]],"start1":403,"start2":403,"length1":16,"length2":29}]],"length":480,"saved":false}
 {"ts":1366759663569,"patch":[[{"diffs":[[0,"iend"],[-1,".profile_name"],[0,"), c"]],"start1":407,"start2":407,"length1":21,"length2":8}]],"length":467,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366768283384,"patch":[[{"diffs":[[0,"lue: @friend"],[1,".profile_name"],[0," %>\n        "]],"start1":267,"start2":267,"length1":24,"length2":37}]],"length":480,"saved":false}
