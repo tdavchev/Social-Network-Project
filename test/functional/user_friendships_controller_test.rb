@@ -82,7 +82,7 @@ class UserFriendshipsControllerTest < ActionController::TestCase
 
       context "with a valid friend_id" do
         setup do
-          post :create, friend_id: users(:mike)
+          post :create, user_friendship: { friend_id: users(:mike) }
         end
 
         should "assign a friend object" do
@@ -97,6 +97,16 @@ class UserFriendshipsControllerTest < ActionController::TestCase
 
         should "create a user friendship" do
           assert users(:jason).friends.include?(users(:mike))
+        end
+        
+        should "redirect to the profile page of the friend" do
+            assert_response :redirect
+            assert_redirected_to profile_path(users(:mike))
+        end
+        
+        should "set the flash success message" do
+            assert flash[:success]
+            assert_equal "You are now friends with #{users(:mike).full_name}.", flash[:success]
         end
       end
 
